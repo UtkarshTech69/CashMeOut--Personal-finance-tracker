@@ -9,8 +9,7 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors());
 
-const mongoURI: string =
-  "mongodb+srv://machadop1407:UvOUTpZW7EH85MZl@personalfinancetracker.qb0edtk.mongodb.net/";
+const mongoURI: string = "mongodb+srv://utkarshmishra17n:favq3skSErAlECOY@cashmeout.7lsvujy.mongodb.net/";
 
 mongoose
   .connect(mongoURI)
